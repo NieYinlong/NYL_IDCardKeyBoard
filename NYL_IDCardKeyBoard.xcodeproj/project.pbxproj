@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5E7A5EC1F6227C400D3068E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E7A5EB1F6227C400D3068E /* main.m */; };
+		F5E7A5EF1F6227C400D3068E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E7A5EE1F6227C400D3068E /* AppDelegate.m */; };
+		F5E7A5F21F6227C400D3068E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E7A5F11F6227C400D3068E /* ViewController.m */; };
+		F5E7A5F51F6227C400D3068E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E7A5F31F6227C400D3068E /* Main.storyboard */; };
+		F5E7A5F71F6227C400D3068E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E7A5F61F6227C400D3068E /* Assets.xcassets */; };
+		F5E7A5FA1F6227C400D3068E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E7A5F81F6227C400D3068E /* LaunchScreen.storyboard */; };
+		F5E7A6051F6227C400D3068E /* NYL_IDCardKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E7A6041F6227C400D3068E /* NYL_IDCardKeyBoardTests.m */; };
+		F5E7A6101F6227C400D3068E /* NYL_IDCardKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E7A60F1F6227C400D3068E /* NYL_IDCardKeyBoardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5E7A6011F6227C400D3068E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E7A5DF1F6227C400D3068E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E7A5E61F6227C400D3068E;
+			remoteInfo = NYL_IDCardKeyBoard;
+		};
+		F5E7A60C1F6227C400D3068E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E7A5DF1F6227C400D3068E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E7A5E61F6227C400D3068E;
+			remoteInfo = NYL_IDCardKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5E7A5E71F6227C400D3068E /* NYL_IDCardKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYL_IDCardKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E7A5EB1F6227C400D3068E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5E7A5ED1F6227C400D3068E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5E7A5EE1F6227C400D3068E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5E7A5F01F6227C400D3068E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5E7A5F11F6227C400D3068E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5E7A5F41F6227C400D3068E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5E7A5F61F6227C400D3068E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5E7A5F91F6227C400D3068E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5E7A5FB1F6227C400D3068E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E7A6001F6227C400D3068E /* NYL_IDCardKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYL_IDCardKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E7A6041F6227C400D3068E /* NYL_IDCardKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYL_IDCardKeyBoardTests.m; sourceTree = "<group>"; };
+		F5E7A6061F6227C400D3068E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E7A60B1F6227C400D3068E /* NYL_IDCardKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYL_IDCardKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E7A60F1F6227C400D3068E /* NYL_IDCardKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYL_IDCardKeyBoardUITests.m; sourceTree = "<group>"; };
+		F5E7A6111F6227C400D3068E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5E7A5E41F6227C400D3068E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E7A5FD1F6227C400D3068E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E7A6081F6227C400D3068E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5E7A5DE1F6227C400D3068E = {
+			isa = PBXGroup;
+			children = (
+				F5E7A5E91F6227C400D3068E /* NYL_IDCardKeyBoard */,
+				F5E7A6031F6227C400D3068E /* NYL_IDCardKeyBoardTests */,
+				F5E7A60E1F6227C400D3068E /* NYL_IDCardKeyBoardUITests */,
+				F5E7A5E81F6227C400D3068E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E7A5E81F6227C400D3068E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E7A5E71F6227C400D3068E /* NYL_IDCardKeyBoard.app */,
+				F5E7A6001F6227C400D3068E /* NYL_IDCardKeyBoardTests.xctest */,
+				F5E7A60B1F6227C400D3068E /* NYL_IDCardKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E7A5E91F6227C400D3068E /* NYL_IDCardKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				F5E7A5ED1F6227C400D3068E /* AppDelegate.h */,
+				F5E7A5EE1F6227C400D3068E /* AppDelegate.m */,
+				F5E7A5F01F6227C400D3068E /* ViewController.h */,
+				F5E7A5F11F6227C400D3068E /* ViewController.m */,
+				F5E7A5F31F6227C400D3068E /* Main.storyboard */,
+				F5E7A5F61F6227C400D3068E /* Assets.xcassets */,
+				F5E7A5F81F6227C400D3068E /* LaunchScreen.storyboard */,
+				F5E7A5FB1F6227C400D3068E /* Info.plist */,
+				F5E7A5EA1F6227C400D3068E /* Supporting Files */,
+			);
+			path = NYL_IDCardKeyBoard;
+			sourceTree = "<group>";
+		};
+		F5E7A5EA1F6227C400D3068E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5E7A5EB1F6227C400D3068E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5E7A6031F6227C400D3068E /* NYL_IDCardKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E7A6041F6227C400D3068E /* NYL_IDCardKeyBoardTests.m */,
+				F5E7A6061F6227C400D3068E /* Info.plist */,
+			);
+			path = NYL_IDCardKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		F5E7A60E1F6227C400D3068E /* NYL_IDCardKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E7A60F1F6227C400D3068E /* NYL_IDCardKeyBoardUITests.m */,
+				F5E7A6111F6227C400D3068E /* Info.plist */,
+			);
+			path = NYL_IDCardKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5E7A5E61F6227C400D3068E /* NYL_IDCardKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E7A6141F6227C400D3068E /* Build configuration list for PBXNativeTarget "NYL_IDCardKeyBoard" */;
+			buildPhases = (
+				F5E7A5E31F6227C400D3068E /* Sources */,
+				F5E7A5E41F6227C400D3068E /* Frameworks */,
+				F5E7A5E51F6227C400D3068E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYL_IDCardKeyBoard;
+			productName = NYL_IDCardKeyBoard;
+			productReference = F5E7A5E71F6227C400D3068E /* NYL_IDCardKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5E7A5FF1F6227C400D3068E /* NYL_IDCardKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E7A6171F6227C400D3068E /* Build configuration list for PBXNativeTarget "NYL_IDCardKeyBoardTests" */;
+			buildPhases = (
+				F5E7A5FC1F6227C400D3068E /* Sources */,
+				F5E7A5FD1F6227C400D3068E /* Frameworks */,
+				F5E7A5FE1F6227C400D3068E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E7A6021F6227C400D3068E /* PBXTargetDependency */,
+			);
+			name = NYL_IDCardKeyBoardTests;
+			productName = NYL_IDCardKeyBoardTests;
+			productReference = F5E7A6001F6227C400D3068E /* NYL_IDCardKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5E7A60A1F6227C400D3068E /* NYL_IDCardKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E7A61A1F6227C400D3068E /* Build configuration list for PBXNativeTarget "NYL_IDCardKeyBoardUITests" */;
+			buildPhases = (
+				F5E7A6071F6227C400D3068E /* Sources */,
+				F5E7A6081F6227C400D3068E /* Frameworks */,
+				F5E7A6091F6227C400D3068E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E7A60D1F6227C400D3068E /* PBXTargetDependency */,
+			);
+			name = NYL_IDCardKeyBoardUITests;
+			productName = NYL_IDCardKeyBoardUITests;
+			productReference = F5E7A60B1F6227C400D3068E /* NYL_IDCardKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5E7A5DF1F6227C400D3068E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "聂银龙";
+				TargetAttributes = {
+					F5E7A5E61F6227C400D3068E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					F5E7A5FF1F6227C400D3068E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5E7A5E61F6227C400D3068E;
+					};
+					F5E7A60A1F6227C400D3068E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5E7A5E61F6227C400D3068E;
+					};
+				};
+			};
+			buildConfigurationList = F5E7A5E21F6227C400D3068E /* Build configuration list for PBXProject "NYL_IDCardKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5E7A5DE1F6227C400D3068E;
+			productRefGroup = F5E7A5E81F6227C400D3068E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5E7A5E61F6227C400D3068E /* NYL_IDCardKeyBoard */,
+				F5E7A5FF1F6227C400D3068E /* NYL_IDCardKeyBoardTests */,
+				F5E7A60A1F6227C400D3068E /* NYL_IDCardKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5E7A5E51F6227C400D3068E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E7A5FA1F6227C400D3068E /* LaunchScreen.storyboard in Resources */,
+				F5E7A5F71F6227C400D3068E /* Assets.xcassets in Resources */,
+				F5E7A5F51F6227C400D3068E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E7A5FE1F6227C400D3068E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E7A6091F6227C400D3068E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5E7A5E31F6227C400D3068E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E7A5F21F6227C400D3068E /* ViewController.m in Sources */,
+				F5E7A5EF1F6227C400D3068E /* AppDelegate.m in Sources */,
+				F5E7A5EC1F6227C400D3068E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E7A5FC1F6227C400D3068E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E7A6051F6227C400D3068E /* NYL_IDCardKeyBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E7A6071F6227C400D3068E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E7A6101F6227C400D3068E /* NYL_IDCardKeyBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5E7A6021F6227C400D3068E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E7A5E61F6227C400D3068E /* NYL_IDCardKeyBoard */;
+			targetProxy = F5E7A6011F6227C400D3068E /* PBXContainerItemProxy */;
+		};
+		F5E7A60D1F6227C400D3068E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E7A5E61F6227C400D3068E /* NYL_IDCardKeyBoard */;
+			targetProxy = F5E7A60C1F6227C400D3068E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5E7A5F31F6227C400D3068E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E7A5F41F6227C400D3068E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5E7A5F81F6227C400D3068E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E7A5F91F6227C400D3068E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5E7A6121F6227C400D3068E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5E7A6131F6227C400D3068E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5E7A6151F6227C400D3068E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NYL_IDCardKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyldemo.NYL-IDCardKeyBoard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5E7A6161F6227C400D3068E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NYL_IDCardKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyldemo.NYL-IDCardKeyBoard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5E7A6181F6227C400D3068E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NYL_IDCardKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyldemo.NYL-IDCardKeyBoardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYL_IDCardKeyBoard.app/NYL_IDCardKeyBoard";
+			};
+			name = Debug;
+		};
+		F5E7A6191F6227C400D3068E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NYL_IDCardKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyldemo.NYL-IDCardKeyBoardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYL_IDCardKeyBoard.app/NYL_IDCardKeyBoard";
+			};
+			name = Release;
+		};
+		F5E7A61B1F6227C400D3068E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NYL_IDCardKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyldemo.NYL-IDCardKeyBoardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NYL_IDCardKeyBoard;
+			};
+			name = Debug;
+		};
+		F5E7A61C1F6227C400D3068E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NYL_IDCardKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyldemo.NYL-IDCardKeyBoardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NYL_IDCardKeyBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5E7A5E21F6227C400D3068E /* Build configuration list for PBXProject "NYL_IDCardKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E7A6121F6227C400D3068E /* Debug */,
+				F5E7A6131F6227C400D3068E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E7A6141F6227C400D3068E /* Build configuration list for PBXNativeTarget "NYL_IDCardKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E7A6151F6227C400D3068E /* Debug */,
+				F5E7A6161F6227C400D3068E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5E7A6171F6227C400D3068E /* Build configuration list for PBXNativeTarget "NYL_IDCardKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E7A6181F6227C400D3068E /* Debug */,
+				F5E7A6191F6227C400D3068E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5E7A61A1F6227C400D3068E /* Build configuration list for PBXNativeTarget "NYL_IDCardKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E7A61B1F6227C400D3068E /* Debug */,
+				F5E7A61C1F6227C400D3068E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5E7A5DF1F6227C400D3068E /* Project object */;
+}
