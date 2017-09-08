@@ -15,6 +15,7 @@
 		F5E7A5FA1F6227C400D3068E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E7A5F81F6227C400D3068E /* LaunchScreen.storyboard */; };
 		F5E7A6051F6227C400D3068E /* NYL_IDCardKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E7A6041F6227C400D3068E /* NYL_IDCardKeyBoardTests.m */; };
 		F5E7A6101F6227C400D3068E /* NYL_IDCardKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E7A60F1F6227C400D3068E /* NYL_IDCardKeyBoardUITests.m */; };
+		F5E7A6231F6229B100D3068E /* NYLIDKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E7A6221F6229B100D3068E /* NYLIDKeyBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F5E7A60B1F6227C400D3068E /* NYL_IDCardKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYL_IDCardKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E7A60F1F6227C400D3068E /* NYL_IDCardKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYL_IDCardKeyBoardUITests.m; sourceTree = "<group>"; };
 		F5E7A6111F6227C400D3068E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E7A6211F6229B100D3068E /* NYLIDKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYLIDKeyBoard.h; sourceTree = "<group>"; };
+		F5E7A6221F6229B100D3068E /* NYLIDKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYLIDKeyBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		F5E7A5E91F6227C400D3068E /* NYL_IDCardKeyBoard */ = {
 			isa = PBXGroup;
 			children = (
+				F5E7A6211F6229B100D3068E /* NYLIDKeyBoard.h */,
+				F5E7A6221F6229B100D3068E /* NYLIDKeyBoard.m */,
 				F5E7A5ED1F6227C400D3068E /* AppDelegate.h */,
 				F5E7A5EE1F6227C400D3068E /* AppDelegate.m */,
 				F5E7A5F01F6227C400D3068E /* ViewController.h */,
@@ -276,6 +281,7 @@
 				F5E7A5F21F6227C400D3068E /* ViewController.m in Sources */,
 				F5E7A5EF1F6227C400D3068E /* AppDelegate.m in Sources */,
 				F5E7A5EC1F6227C400D3068E /* main.m in Sources */,
+				F5E7A6231F6229B100D3068E /* NYLIDKeyBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NYL_IDCardKeyBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nyldemo.NYL-IDCardKeyBoard";
@@ -435,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NYL_IDCardKeyBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nyldemo.NYL-IDCardKeyBoard";

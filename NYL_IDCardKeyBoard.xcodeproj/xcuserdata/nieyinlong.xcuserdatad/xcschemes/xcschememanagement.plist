@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>NYL_IDCardKeyBoard.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F5E7A5E61F6227C400D3068E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5E7A5FF1F6227C400D3068E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5E7A60A1F6227C400D3068E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
